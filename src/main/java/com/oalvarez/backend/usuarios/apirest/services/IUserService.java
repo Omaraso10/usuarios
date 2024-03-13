@@ -3,7 +3,6 @@ package com.oalvarez.backend.usuarios.apirest.services;
 import com.oalvarez.backend.usuarios.apirest.dto.CreateResponseDTO;
 import com.oalvarez.backend.usuarios.apirest.dto.UserDTO;
 import com.oalvarez.backend.usuarios.apirest.dto.UserResponseDTO;
-import com.oalvarez.backend.usuarios.apirest.entity.User;
 
 import java.util.List;
 

@@ -1,14 +1,12 @@
 package com.oalvarez.backend.usuarios.apirest.mapper;
 
 import com.oalvarez.backend.usuarios.apirest.dto.PhoneDTO;
-import com.oalvarez.backend.usuarios.apirest.dto.UserDTO;
 import com.oalvarez.backend.usuarios.apirest.dto.UserResponseDTO;
 import com.oalvarez.backend.usuarios.apirest.entity.Phone;
 import com.oalvarez.backend.usuarios.apirest.entity.User;
 import org.springframework.stereotype.Component;
 
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
