@@ -24,14 +24,14 @@ dependencies {
 	developmentOnly "org.springframework.boot:spring-boot-devtools:${springBootVersion}"
 	runtimeOnly 'com.h2database:h2'
 	testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
-	implementation "org.springframework.security.oauth:spring-security-oauth2:2.3.4.RELEASE"
-	implementation "org.springframework.security:spring-security-jwt:1.0.9.RELEASE"
-	implementation "com.sun.xml.bind:jaxb-core:2.3.0.1"
-	implementation "com.sun.xml.bind:jaxb-impl:2.3.1"
+	implementation "org.springframework.security.oauth:spring-security-oauth2:${springSecurityOauth2Version}"
+	implementation "org.springframework.security:spring-security-jwt:${springSecurityJwtVersion}"
+	implementation "com.sun.xml.bind:jaxb-core:${jaxbCoreVersion}"
+	implementation "com.sun.xml.bind:jaxb-impl:${jaxbImplVersion}"
 	implementation "javax.xml.bind:jaxb-api"
 	implementation "org.glassfish.jaxb:jaxb-runtime"
-	implementation "javax.activation:javax.activation-api:1.2.0"
-	testImplementation "org.mockito:mockito-core:3.4.0"
+	implementation "javax.activation:javax.activation-api:${activationApiVersion}"
+	testImplementation "org.mockito:mockito-core:${mockitoVersion}"
 }
 
 tasks.named('test') {
